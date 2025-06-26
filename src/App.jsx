@@ -19,14 +19,14 @@ function App() {
 
   return (
     <>
-
-      <Main />
-      <MainTwo />
-      <Hero />
-      <Process />
-      {/* <Projects /> */}
-      <About />
-      <Footer />
+      <div className="overflow-hidden font-['font'] selection:bg-black selection:text-white">
+        <Main />
+        <MainTwo />
+        <Hero />
+        <Process />
+        <About />
+        <Footer />
+      </div>
     </>
   )
 }

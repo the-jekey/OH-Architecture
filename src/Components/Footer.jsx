@@ -2,17 +2,17 @@ import React from 'react'
 
 const Footer = () => {
        return (
-              <div className='h-screen w-full flex '>
-                     <div className="part-1 h-[100%] w-1/3 p-6 leading-none flex flex-col justify-between">
-                            <img className='h-[60%] w-[60%] object-cover' src="./image-2.avif" alt="" />
-                            <h1 className='text-[12vw] font-black relative'>GH</h1>
-                            <p className='font-semibold relative bottom-0'>© 2025<br />
+              <div className=' w-full  overflow-hidden lg:flex lg:justify-between lg:items-center bg-[#fcfcfc] text-black font-bold text-sm uppercase  md:text-xl lg:text-sm'>
+                     <div className="part-1  w-full p-6 leading-none flex flex-col gap-2.5 justify-between">
+                            <img className='h-[60%] w-[100%] object-cover' src="./image-2.avif" alt="" />
+                            <h1 className='text-[12vw] font-black relative'>OH</h1>
+                            <p className='font-semibold relative bottom-0'> OH ARCHITECTURE © 2025<br />
                                    3:05 AM QLD, we are closed</p>
 
                      </div>
-                     <div className="part-2 h-[100%] w-1/3 flex flex-col justify-between">
+                     <div className="part-2 h-[100%] w-full px-4">
                             <p className='font-semibold'>(Navigation)</p>
-                            <div className="h1 font-bold text-[4vw] uppercase leading-[12vh] ">
+                            <div className="h1 font-bold text-[8vw] lg:text-6xl uppercase ">
 
                                    <h1>Bio</h1>
                                    <h1>Home</h1>
@@ -26,28 +26,26 @@ const Footer = () => {
                                           Terms of Service</p>
                             </div>
                      </div>
-                     <div className="part-3 h-[100%] w-1/3 flex flex-col justify-between font-semibold px-3" >
+                     <div className="part-3 mt-5 h-[100%] w-full flex flex-col justify-between font-semibold px-3" >
                             <div className="partone">
-                                   <h2>(acknowledgement)</h2>
-                                   <p>We respectfully acknowledge the Turrbal people, the Traditional Owners and Custodians of the Country on which we work. We pay our respects to Elders past and present, and acknowledge their continuing connection to land, sea and community.</p>
+                                   <h2 className='mt-4 md:text-3xl lg:text-xl'>(acknowledgement)</h2>
+                                   <p className='mt-4 text-[13px] md:text-xl'>We respectfully acknowledge the Turrbal people, the Traditional Owners and Custodians of the Country on which we work. We pay our respects to Elders past and present, and acknowledge their continuing connection to land, sea and community.</p>
                             </div>
-                            <div className="parttwo">
+                            <div className="parttwo mt-5 lg:text-xl md:xl">
                                    <p>((info))</p>
-                                   <div className="link">
-                                          A: 101 Days Rd, Grange QLD 4051
-                                          E: info@oharchitecture.com.au
-                                          P: 07 3110 1031
+                                   <div className="link text-[13px]">
+                                          A: 101 Days Rd, Grange QLD 4051 <br />
+                                          E: info@oharchitecture.com.au <br />
+                                          P: 07 3110 1031 <br />
                                           H: Monday to Friday, 8:30am - 5:00pm
                                    </div>
-                                   <div className="hp">
-                                          <div className="img size-[30vh]">
 
-                                          </div>
-                                   </div>
                             </div>
-                            <div className="partthree flex justify-between items-center">
+                            <div className="partthree flex justify-between items-center mt-12  text-[12px] capitalize">
                                    <p>Instagram</p>
-                                   <p>made by jekey</p>
+                                   <a href="https://www.instagram.com/the_jekeyy/" className=''>
+                                          <p>made by jekey</p>
+                                   </a>
                             </div>
 
                      </div>

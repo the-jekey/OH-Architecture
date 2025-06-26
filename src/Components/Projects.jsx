@@ -2,7 +2,7 @@ import React from 'react'
 
 const Projects = () => {
        return (
-              <div className='h-[300vh] w-full bg-amber-200'>
+              <div className='h-[300vh] w-full bg-amber-200 px-2'>
                      <div className="partone">
                             <p>(here form our clients)</p>
                             <img src="./image-1.avif" alt="" />
